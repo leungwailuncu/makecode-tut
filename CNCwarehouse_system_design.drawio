@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T09:13:18.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="txheAlK6qPhfTHeKodrc" version="14.4.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-08T09:27:13.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="9zxP96zMI0fssYqScIwT" version="14.4.4" type="github" pages="2">
   <diagram id="6BBYjR7IYDwwjThwqMX9" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,6 +117,149 @@
       <root>
         <mxCell id="PBluJRMGbL9UYWVEXhb--0" />
         <mxCell id="PBluJRMGbL9UYWVEXhb--1" parent="PBluJRMGbL9UYWVEXhb--0" />
+        <mxCell id="dO0v1shjSII0H6XL23B8-0" value="central computer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dO0v1shjSII0H6XL23B8-1" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PBluJRMGbL9UYWVEXhb--1" target="dO0v1shjSII0H6XL23B8-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="240" as="sourcePoint" />
+            <mxPoint x="80" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dO0v1shjSII0H6XL23B8-2" value="Robotic Arm &lt;br&gt;Computer B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="200" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dO0v1shjSII0H6XL23B8-3" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PBluJRMGbL9UYWVEXhb--1" target="dO0v1shjSII0H6XL23B8-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="160" as="sourcePoint" />
+            <mxPoint x="80" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dO0v1shjSII0H6XL23B8-4" value="Robotic Arm &lt;br&gt;Computer A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="200" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dO0v1shjSII0H6XL23B8-5" value="TCP/IP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="100" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dO0v1shjSII0H6XL23B8-6" value="TCP/IP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="100" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-0" value="" style="shape=link;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="PBluJRMGbL9UYWVEXhb--1" source="dO0v1shjSII0H6XL23B8-0">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="360" y="310" as="sourcePoint" />
+            <mxPoint x="40" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-2" value="" style="shape=link;html=1;" edge="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="410" y="330" as="sourcePoint" />
+            <mxPoint x="410" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-4" value="&lt;h1&gt;Take Job (from warehouse)&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="40" y="320" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-5" value="central computer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="40" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-7" value="Robotic Arm &lt;br&gt;Computer B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="260" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-9" value="Robotic Arm &lt;br&gt;Computer A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="260" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PBluJRMGbL9UYWVEXhb--1" source="sO7AB3OwODkNOzJwhGdN-13" target="sO7AB3OwODkNOzJwhGdN-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-13" value="Job string for A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="45" y="440" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PBluJRMGbL9UYWVEXhb--1" source="sO7AB3OwODkNOzJwhGdN-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-18" value="Job string for B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="45" y="520" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="680" as="sourcePoint" />
+            <mxPoint x="130" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-21" value="wait for the processing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="170" y="630" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-22" value="Robotic Arm &lt;br&gt;Computer B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="260" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-23" value="Robotic Arm &lt;br&gt;Computer A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="260" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PBluJRMGbL9UYWVEXhb--1" source="sO7AB3OwODkNOzJwhGdN-24" target="sO7AB3OwODkNOzJwhGdN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-24" value="A job done" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="260" y="760" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="PBluJRMGbL9UYWVEXhb--1" source="sO7AB3OwODkNOzJwhGdN-25" target="sO7AB3OwODkNOzJwhGdN-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-25" value="B job done" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="260" y="880" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-26" value="central computer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="40" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-27" value="central computer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="40" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-30" value="if both signal received" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="40" y="960" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-31" value="&lt;h1&gt;Take Job End&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="120" y="1000" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-34" value="&lt;h1&gt;Place Job (to warehouse)&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="460" y="320" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-35" value="central computer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="450" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-36" value="Robotic Arm &lt;br&gt;Computer A/B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="670" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PBluJRMGbL9UYWVEXhb--1" source="sO7AB3OwODkNOzJwhGdN-38" target="sO7AB3OwODkNOzJwhGdN-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-38" value="Job string for A/B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="455" y="440" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="600" as="sourcePoint" />
+            <mxPoint x="520" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-44" value="wait for the processing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="560" y="550" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-45" value="Robotic Arm &lt;br&gt;Computer A/B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="670" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PBluJRMGbL9UYWVEXhb--1" source="sO7AB3OwODkNOzJwhGdN-47" target="sO7AB3OwODkNOzJwhGdN-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-47" value="job done" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="670" y="680" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-48" value="central computer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="450" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sO7AB3OwODkNOzJwhGdN-49" value="&lt;h1&gt;Place Job End&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="PBluJRMGbL9UYWVEXhb--1">
+          <mxGeometry x="540" y="760" width="180" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
